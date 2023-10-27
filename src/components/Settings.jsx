@@ -1,5 +1,6 @@
 import { Col, Container, Row } from "react-bootstrap"
 import MyNav from "./MyNav"
+import avatar from '../assets/avatar2.png'
 
 const Settings = () => {
     return(
@@ -142,7 +143,7 @@ const Settings = () => {
                   <div className="d-flex">
                     <a href="profile.html"
                       ><img
-                        src="Netflix-assets/assets/avatar.png"
+                        src={avatar}
                         alt=""
                         width="30px"
                         height="30px"
