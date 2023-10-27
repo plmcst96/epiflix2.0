@@ -7,8 +7,9 @@ import avatar2 from '../assets/avatar.png'
 
 const MyNav = () => {
     return (
-        <Navbar expand="lg" className="navbar-dark bg-black">
         <Container fluid>
+        <Navbar expand="lg" className="navbar-dark bg-black p-0">
+        
           <Navbar.Brand href="#home"><Image src={image} style={{width: '150px'}}/></Navbar.Brand>
           <span
               className="navbar-toggler border border-0 text-white fs-6 d-flex flex-grow-1 d-lg-none"
@@ -58,9 +59,10 @@ const MyNav = () => {
         <Dropdown.Item href="#settings" className="text-white">Settings</Dropdown.Item>
       </Dropdown.Menu>
     </Dropdown>
-    </div>
-        </Container>
+         </div>
+       
       </Navbar>
+      </Container>
     )
 }
 
