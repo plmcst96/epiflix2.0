@@ -13,7 +13,9 @@ function App() {
       </header>
       <main>
         <Hero />
-        <GalleryMovie idSearch={'herry potter'} />
+        <GalleryMovie idSearch={'harry potter'} />
+        <GalleryMovie idSearch={'Star Wars'} />
+        <GalleryMovie idSearch={'Star trek'} />
       </main>
       <footer>
         <MyFooter />

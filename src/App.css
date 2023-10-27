@@ -2,6 +2,19 @@
   text-align: center;
 }
 
+.carousel-control-prev,
+.carousel-control-next {
+  width: 4%;
+}
+
+.carousel-indicators {
+  margin-bottom: -2%;
+}
+
+body {
+  background-color: black;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
