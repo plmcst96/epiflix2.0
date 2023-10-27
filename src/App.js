@@ -10,7 +10,7 @@ import Settings from './components/Settings';
 function App() {
   return (
     <div>
-      {/* <header>
+      <header>
         <MyNav />
       </header>
       <main>
@@ -21,9 +21,12 @@ function App() {
       </main>
       <footer>
         <MyFooter />
-      </footer> */}
+      </footer>
+      {/* ISTRUZINI PER L'USO:
+      1)commenta i tag <header>,<footer> e <main> per poter visualizzare le altre due pagine
+      2) decommenta prima il component profile e in seguito settings. ATTENZIONE: da fare separatamentr ahahha */}
       {/* <Profile /> */}
-      <Settings />
+      {/* <Settings /> */}
     </div>
   );
 }
