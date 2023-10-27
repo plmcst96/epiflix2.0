@@ -4,11 +4,13 @@ import MyNav from './components/MyNav';
 import MyFooter from './components/MyFooter';
 import Hero from './components/Hero';
 import GalleryMovie from './components/GalleryMovie';
+import Profile from './components/Profile';
+import Settings from './components/Settings';
 
 function App() {
   return (
     <div>
-      <header>
+      {/* <header>
         <MyNav />
       </header>
       <main>
@@ -19,7 +21,9 @@ function App() {
       </main>
       <footer>
         <MyFooter />
-      </footer>
+      </footer> */}
+      {/* <Profile /> */}
+      <Settings />
     </div>
   );
 }
